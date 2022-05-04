@@ -1,0 +1,449 @@
+.display-flex{
+    display: flex;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+.container-1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.05)),url(../images/pic-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+li, a, button{
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+ 
+
+
+.nav-links li:hover {
+    color: #FF9C00;
+}
+
+.sayhi{
+    padding: 10px 20px;
+    background-color: #FF9C00;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+}
+
+.sayhi:hover{
+    background-color: #219ebc ;
+    color: #FF9C00;
+}
+
+.title{
+    margin: 200px 200px 30px 0;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.p-text{
+    font-size: 20px;
+    margin-bottom: 60px;
+    color: white;
+}
+
+.readmoreBtn{
+    padding: 10px 25px;
+    background-color: #FF9C00;
+    border: none;
+    cursor: pointer;
+    text-transform:capitalize;
+    transition: all 0.3s ease 0s;
+}
+
+.readmoreBtn:hover{
+    background-color: #219ebc ;
+    color: black;
+}
+
+
+.container-2{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services{
+    margin-top: 100px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.p-text-2{
+    font-size: 20px;
+}
+
+.stack{
+    margin-bottom: 130px;
+}
+
+.textbox-h2{
+    font-size: 25px;
+    color: #072753;
+    margin-bottom: 20px;
+    margin-top: 30px; 
+}
+
+.textbox-p{
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.web, .ui-design {
+    margin-right: 120px;
+}
+
+.web{
+    margin-left: 100px;
+}
+
+.learnmoreBtn{
+    padding: 10px 25px;
+    background-color: #FF9C00;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    text-transform:capitalize;
+    transition: all 0.3s ease 0s;
+}
+
+.learnmoreBtn:hover{
+    background-color: #219ebc ;
+    color: black;
+}
+
+.container-3{
+    margin-top: 300px;
+    width: 100%;
+}
+
+.left{
+    width: 50%;
+    margin-left: 200px;
+}
+
+
+.right{
+    width: 50%;
+}
+
+.tohelp{
+    font-size: 40px;
+    color: #072753;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.p-text-3{
+    line-height: 1.6;
+    margin-bottom: 80px;
+    font-size: 18px;
+}
+
+.img-2{
+    color: #072753;
+}
+
+
+.container-4{
+    margin-top: 300px;
+    width: 100%;
+}
+
+.left-2{
+    width: 50%;
+    margin-left: 200px;
+}
+
+
+.right-2{
+    margin-top: 70px;
+    width: 50%;
+}
+
+.towork{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.p-text-3{
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+
+label{
+    position: relative;
+}
+
+input{
+    border-color:  #EDE5D9;
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    padding: 0 15px;
+}
+
+.sendBtn{
+    position: absolute;
+    bottom: -12px;
+    right: 5px;
+    padding: 10px 20px;
+    background-color: #FF9C00;
+    color: black;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+}
+
+.sendBtn:hover{
+    background-color: #219ebc ;
+    color: black;
+}
+
+
+.container-5{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.05)),url(../images/BG.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 150px;
+}
+
+.project{
+    margin-top: 100px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.three-image{
+    border-radius: 5%;
+    width: 400px;
+    height: 500px;
+    margin-bottom: 40px;
+}
+
+.business, .food, .travel{
+    margin-left: 40px;
+}
+
+.stack-2{
+    margin-bottom: 50px;
+    padding-top: 1px;
+    color: white;
+}
+
+.s4-h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.s4-p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+.travel{
+    margin-right: 85px;
+}
+
+.business{
+    margin-left: 85px;
+}
+
+.food{
+    margin-right: 50px;
+}
+
+
+.container-6{
+    margin-top: 300px;
+    width: 100%;
+    position: relative;
+}
+
+.left-3{
+    width: 50%;
+    margin-left: 200px;
+}
+
+
+.right-3{
+    width: 50%;
+}
+
+
+.dots{
+    position: absolute;
+    bottom: 300px;
+    left: 393px;
+    z-index: -1;
+}
+
+.pic-7{
+    z-index: 1;
+    margin-left: 250px;
+}
+
+
+.creators{
+    margin-top: 100px;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.carla{
+    margin-top: 35px;
+    color: #072753;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.carlah3{
+    font-size: 15px;
+    color: #072753;
+    margin-bottom: 20px;
+}
+
+.carlap{
+    color: #072753;
+    font-size: 20px;
+}
+
+
+footer{
+    background-color: #011021;
+    height: auto;
+    padding: 90px 140px;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerContainer  li {
+    color: #707070;
+    transition: 0.3 ease;
+    cursor: pointer;
+
+}
+
+.footerContainer  li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footerContainer  li:hover{
+    color: #1B498A;
+}
+
+.footerContainer h2{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+
+.logoDiv p{
+    margin: 25px 0;
+    color: #707070;
+}
+
+.footersendBtn{
+    position: absolute;
+    bottom: -12px;
+    right: 5px;
+    padding: 10px 20px;
+    background-color: #1B498A;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+}
+
+.footersendBtn:hover{
+    background-color: #FF9C00;
+    color: black;
+}
+
+
+.socials{
+    justify-content: space-between;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.fb{
+    margin-right: 10px;
+}
+
+.twit{
+    margin-right: 10px;
+}
+
+
